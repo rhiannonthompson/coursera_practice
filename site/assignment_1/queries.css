@@ -1,0 +1,35 @@
+@media screen and (max-width: 991px) {
+    .col:nth-child(3) {
+        width: 80.5%;
+    }
+
+    .col:nth-child(3) .row{
+        width: 16%;
+    }
+
+    .col {
+        width: 39.03%;
+    }
+
+    .row {
+        width: 30%;
+    }
+  }
+
+  @media screen and (max-width: 767px){
+    .col {
+        width: 82%;
+    }
+
+    .col:nth-child(3) {
+        width: 82%;
+    }
+
+    .col:nth-child(3) .row{
+        width: 38%;
+    }
+
+    .row {
+        width: 38%;
+    }
+  }
